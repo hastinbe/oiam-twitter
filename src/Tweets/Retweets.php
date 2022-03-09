@@ -9,12 +9,12 @@ use Coderjerk\BirdElephant\ApiBase;
  */
 class Retweets extends ApiBase
 {
-    protected array $credentials;
+    protected $credentials;
 
     /**
      * @var array
      */
-    private array $params;
+    private $params;
 
     public function __construct($credentials, $params)
     {

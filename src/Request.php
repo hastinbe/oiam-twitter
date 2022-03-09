@@ -17,7 +17,7 @@ use GuzzleHttp\HandlerStack;
  */
 class Request
 {
-    protected array $credentials;
+    protected $credentials;
 
     protected string $base_uri = 'https://api.twitter.com/';
 

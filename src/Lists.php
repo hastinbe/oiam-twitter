@@ -11,7 +11,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class Lists
 {
-    public array $credentials;
+    public $credentials;
     private ManageLists $lists;
 
     public function __construct($credentials)

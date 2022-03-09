@@ -8,7 +8,7 @@ use GuzzleHttp\Exception\GuzzleException;
 class Compliance
 {
 
-    protected array $credentials;
+    protected $credentials;
 
     public function __construct($credentials)
     {

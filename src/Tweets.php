@@ -17,7 +17,7 @@ class Tweets
      *
      * @var array
      */
-    protected array $credentials;
+    protected $credentials;
 
     public function __construct(array $credentials)
     {

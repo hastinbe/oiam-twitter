@@ -14,7 +14,7 @@ class UserLookup extends ApiBase
 {
     protected string $uri = 'users';
 
-    protected array $credentials;
+    protected $credentials;
 
     public function __construct($credentials)
     {

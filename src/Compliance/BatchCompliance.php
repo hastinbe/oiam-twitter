@@ -18,7 +18,7 @@ class BatchCompliance
      * @var string
      */
     public string $uri = 'compliance/jobs';
-    private array $credentials;
+    private $credentials;
 
 
     public function __construct($credentials)

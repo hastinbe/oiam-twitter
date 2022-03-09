@@ -7,7 +7,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class Users
 {
-    protected array $credentials;
+    protected $credentials;
     private UserLookup $userLookup;
 
     public function __construct($credentials)

@@ -13,7 +13,7 @@ class VolumeStream
      */
     public string $uri = 'tweets/sample/stream';
 
-    private array $credentials;
+    private $credentials;
 
 
     public function __construct($credentials)

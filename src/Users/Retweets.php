@@ -12,7 +12,7 @@ class Retweets extends ApiBase
      *
      * @var array
      */
-    protected array $credentials;
+    protected $credentials;
 
     /**
      * A Twitter username

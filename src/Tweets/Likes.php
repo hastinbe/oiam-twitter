@@ -9,7 +9,7 @@ use Coderjerk\BirdElephant\ApiBase;
  */
 class Likes extends ApiBase
 {
-    protected array $credentials;
+    protected $credentials;
 
     public function __construct($credentials)
     {

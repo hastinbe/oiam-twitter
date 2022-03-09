@@ -23,7 +23,7 @@ class Follows extends ApiBase
      *
      * @var array
      */
-    public array $default_params = [
+    public $default_params = [
         'max_results' => 10,
     ];
 
@@ -32,7 +32,7 @@ class Follows extends ApiBase
      *
      * @var array
      */
-    protected array $credentials;
+    protected $credentials;
 
     /**
      * A Twitter handle

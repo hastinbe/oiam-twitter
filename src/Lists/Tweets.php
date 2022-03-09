@@ -7,7 +7,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class Tweets extends ApiBase
 {
-    protected array $credentials;
+    protected $credentials;
 
     protected string $path;
 

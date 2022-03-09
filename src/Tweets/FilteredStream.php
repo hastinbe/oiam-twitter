@@ -20,7 +20,7 @@ class FilteredStream extends ApiBase
      * @var string
      */
     public string $uri = 'tweets/search/stream';
-    private array $credentials;
+    private $credentials;
 
 
     public function __construct($credentials)

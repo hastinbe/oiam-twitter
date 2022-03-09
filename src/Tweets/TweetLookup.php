@@ -23,7 +23,7 @@ class TweetLookup extends ApiBase
      *
      * @var array
      */
-    protected array $credentials;
+    protected $credentials;
 
 
     public function __construct(array $credentials)

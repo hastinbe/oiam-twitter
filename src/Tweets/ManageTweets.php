@@ -16,7 +16,7 @@ class ManageTweets extends ApiBase
      *
      * @var array
      */
-    protected array $credentials;
+    protected $credentials;
 
     /**
      * Base endpoint

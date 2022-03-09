@@ -15,7 +15,7 @@ use GuzzleHttp\Exception\GuzzleException;
 
 class User
 {
-    protected array $credentials;
+    protected $credentials;
     private string $username;
     private UserLookup $userLookup;
     private Follows $follows;
