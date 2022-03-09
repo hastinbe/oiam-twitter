@@ -16,7 +16,7 @@ class Follows extends ApiBase
      *
      * @var string
      */
-    public string $uri = 'users';
+    public $uri = 'users';
 
     /**
      * Default query parameters
@@ -39,7 +39,7 @@ class Follows extends ApiBase
      *
      * @var string
      */
-    protected string $username;
+    protected $username;
 
     public function __construct($credentials, $username)
     {

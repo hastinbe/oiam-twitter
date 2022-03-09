@@ -12,7 +12,7 @@ class SpacesLookup extends ApiBase
      *
      * @var string
      */
-    protected string $endpoint_base = 'spaces';
+    protected $endpoint_base = 'spaces';
 
     /**
      * Tokens and secrets

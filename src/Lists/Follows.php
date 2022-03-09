@@ -9,7 +9,7 @@ class Follows extends ApiBase
 {
     protected $credentials;
 
-    protected string $path;
+    protected $path;
 
     public function __construct($credentials)
     {

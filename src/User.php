@@ -16,15 +16,15 @@ use GuzzleHttp\Exception\GuzzleException;
 class User
 {
     protected $credentials;
-    private string $username;
-    private UserLookup $userLookup;
-    private Follows $follows;
-    private Blocks $blocks;
-    private Mutes $mutes;
-    private Likes $likes;
-    private Retweets $retweets;
-    private SpacesLookup $spaces;
-    private Timeline $timeline;
+    private $username;
+    private $userLookup;
+    private $follows;
+    private $blocks;
+    private $mutes;
+    private $likes;
+    private $retweets;
+    private $spaces;
+    private $timeline;
 
     public function __construct($credentials, $username)
     {

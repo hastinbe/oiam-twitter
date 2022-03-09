@@ -18,7 +18,7 @@ class Timeline extends ApiBase
      *
      * @var string
      */
-    public string $uri = 'users';
+    public $uri = 'users';
 
     /**
      * @var array

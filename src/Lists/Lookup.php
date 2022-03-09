@@ -13,7 +13,7 @@ class Lookup extends ApiBase
      *
      * @var string
      */
-    protected string $endpoint_base = 'lists';
+    protected $endpoint_base = 'lists';
 
     /**
      * Tokens and secrets

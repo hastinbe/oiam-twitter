@@ -23,7 +23,7 @@ class ManageTweets extends ApiBase
      *
      * @var string
      */
-    protected string $endpoint = 'tweets';
+    protected $endpoint = 'tweets';
 
     public function __construct($credentials)
     {

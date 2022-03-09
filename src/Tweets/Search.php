@@ -13,7 +13,7 @@ class Search extends ApiBase
 {
     protected $credentials;
 
-    protected string $endpoint = 'tweets/search/';
+    protected $endpoint = 'tweets/search/';
 
     public function __construct($credentials)
     {

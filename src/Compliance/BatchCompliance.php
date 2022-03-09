@@ -17,7 +17,7 @@ class BatchCompliance
      *
      * @var string
      */
-    public string $uri = 'compliance/jobs';
+    public $uri = 'compliance/jobs';
     private $credentials;
 
 

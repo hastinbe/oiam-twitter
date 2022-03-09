@@ -19,7 +19,7 @@ class Request
 {
     protected $credentials;
 
-    protected string $base_uri = 'https://api.twitter.com/';
+    protected $base_uri = 'https://api.twitter.com/';
 
     public function __construct($credentials)
     {

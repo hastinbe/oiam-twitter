@@ -12,7 +12,7 @@ use GuzzleHttp\Exception\GuzzleException;
  */
 class UserLookup extends ApiBase
 {
-    protected string $uri = 'users';
+    protected $uri = 'users';
 
     protected $credentials;
 

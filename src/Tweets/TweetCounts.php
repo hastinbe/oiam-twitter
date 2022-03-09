@@ -15,7 +15,7 @@ class TweetCounts extends ApiBase
 {
     protected $credentials;
 
-    protected string $endpoint = 'tweets/counts/';
+    protected $endpoint = 'tweets/counts/';
 
     public function __construct($credentials)
     {

@@ -5,7 +5,7 @@ namespace Coderjerk\BirdElephant\Compose;
 class Reply
 {
     public ?array $exclude_reply_user_ids = [];
-    public string $in_reply_to_tweet_id;
+    public $in_reply_to_tweet_id;
 
     public function excludeReplyUserIds($exclude_reply_user_ids)
     {

@@ -19,7 +19,7 @@ class Retweets extends ApiBase
      *
      * @var string
      */
-    protected string $username;
+    protected $username;
 
     public function __construct($credentials, $username)
     {
